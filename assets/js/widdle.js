@@ -20,7 +20,7 @@ $(document).ready(function () {
     { ga('send', 'event', 'URL_Referral', 'iOS'); }
     var isMobile = (navigator.userAgent.toLowerCase().indexOf("mobile") != -1 && navigator.userAgent.toLowerCase().indexOf("ipad") == -1); $('.halfSized').each(function ()
     { $(this).css("display", "none"); }); if (!isMobile)
-    { $('.video').videoBG({ position: "fixed", zIndex: -1, mp4: '../video/widdle.mp4', ogv: '../video/widdle.ogv', webm: '../video/widdle.webm', opacity: 1, autoplay: 1, height: "100%", width: "100%" }); $(".video .video").css("display", "none"); }
+    { $('.video').videoBG({ position: "fixed", zIndex: -1, mp4: '../assets/video/widdle.mp4', ogv: '../assets/video/widdle.ogv', webm: '../assets/video/widdle.webm', opacity: 1, autoplay: 1, height: "100%", width: "100%" }); $(".video .video").css("display", "none"); }
     $("#aj").click(function (e) {
         if ($("#aj-img").hasClass("red"))
         { $('#bio1').slideUp('slow'); $("#aj-img").removeClass("red"); $("#aj-img").attr("src", "../assets/img/Aj.png"); } else {
